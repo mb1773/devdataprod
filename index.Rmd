@@ -1,0 +1,59 @@
+---
+title       : Calculate Day of Birth
+subtitle    : Slidify Deck for Developing Data Products Course Project
+author      : Monica Mitchell / mb1773
+job         : 
+framework   : landslide        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : default     # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+Calculate Day of Birth <hr>
+Slidify Deck for Developing Data Products Course Project by Monica Mitchell (mb1773)
+
+--- .class1 #id1 bg:yellow
+
+## Shiny Project Summary
+
+The course project objective was to display an understanding of the Shiny application and its use within R by writing a SIMPLE program that collected some user input and used this input to calculate something.
+My Shiny Application was a script that would ask the user to enter his/her date of birth ih YYYY-MM-DD format.  Then the app displays the user input and caculates the day of the week that the user was born.
+
+--- .class1 #id2 bg:blue
+
+## Project details
+
+Data Input 
+All you need is your birthday.
+If you were born on July 10, 1969 you would enter 1969-07-10
+
+   
+    
+Data Output
+Based on an input of 1969-07-10, the program would calculate that you were born on the 5th day of the week (Thursday).
+
+Where:
+
+Sunday - 1, Monday - 2, Tuesday - 3, Wednesday - 4, Thursday - 5, Friday - 6, Saturday - 7
+
+--- .class1 #id2 bg:red
+
+## Where to find my Shiny App
+
+https://mb1773.shinyapps.io/mmshinyback/
+
+
+---
+
+## Embedded R Code
+
+```{r}
+x <- "This is the end of my presentation"
+print(x)
+```
+
+## R 
+
+
